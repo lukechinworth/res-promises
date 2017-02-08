@@ -1,0 +1,35 @@
+{
+  "name": "res-promises",
+  "version": "1.0.0",
+  "description": "Express middleware that adds promises object and render method that waits for promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukechinworth/res-promises.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "promise"
+  ],
+  "author": "Luke Chinworth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukechinworth/res-promises/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/lukechinworth/res-promises#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "express": "^4.14.1",
+    "pug": "^2.0.0-beta11"
+  }
+}
